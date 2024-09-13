@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="output.css" rel="stylesheet">
+  <title>Tailwind Setup</title>
+</head>
+<body class="bg-black text-white">
+   
+    <div class="relative h-screen bg-cover bg-center" style="background-image: url('your-background-image.jpg');">
+        <div class="absolute inset-0 bg-black opacity-70"></div>
+        
+      
+        <div class="relative z-10 flex flex-col items-center justify-center h-full px-4 text-center">
+           
+            <div class="absolute top-0 left-0 p-6">
+                <h1 class="text-5xl font-bold text-red-600">NETFLIX</h1>
+            </div>
+
+            
+            <div class="absolute top-0 right-0 p-6 space-x-4">
+                <button class="px-4 py-2 font-semibold text-white bg-transparent border border-white rounded">English</button>
+                <button class="px-4 py-2 font-semibold text-white bg-red-600 rounded">Sign In</button>
+            </div>
+
+            
+            <div class="max-w-2xl mt-32">
+                <h1 class="mb-4 text-4xl font-extrabold lg:text-5xl">Unlimited movies, TV shows, and more.</h1>
+                <p class="mb-2 text-xl font-semibold">Watch anywhere. Cancel anytime.</p>
+                <p class="mb-4">Ready to watch? Enter your email to create or restart your membership.</p>
+                
+              
+                <form class="flex justify-center">
+                    <input type="email" placeholder="Email address" class="px-4 py-2 rounded-l bg-gray-800 focus:outline-none focus:ring-2 focus:ring-red-600">
+                    <button type="submit" class="px-6 py-2 text-white bg-red-600 rounded-r">Get Started</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
